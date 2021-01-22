@@ -1,0 +1,26 @@
+PUSHING A NEW REPO TO GITHUB:
+
+
+1. Create a remote, empty folder/repository on Github.
+
+    1. Login to your Github account.
+
+    2. At the top right of any Github page, you should see a '+' icon. Click that, then select 'New Repository'.
+
+    3. Give your repository a name--ideally the same name as your local project. If I'm building a travel application, its folder will be called 'travel-app' on my computer, and 'travel-app' will be the Github repository name as well.
+
+    4. Click 'Create Repository'. The next screen you see will be important, so don't close it.
+
+
+    5. Name the repository and copy the .git link 
+
+
+
+In the terminal: 
+	1. git init 
+	2. git remote add origin [copied .git link]
+	3. git add -A
+	4. touch README.md
+	5. echo "Text for README.md" > README.md
+	6. git commit -m "commit message"
+	7. git push origin master 
