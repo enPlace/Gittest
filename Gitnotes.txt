@@ -24,3 +24,19 @@ In the terminal:
 	5. echo "Text for README.md" > README.md
 	6. git commit -m "commit message"
 	7. git push origin master 
+
+
+CREATING A BRANCH: 
+1. git branch <branch_name>
+2. Add something to the branch
+3. git add -A
+4. git commit -m "message"
+5. git push origin <branch_name>
+
+
+Merging a branch 
+1. git pull origin main
+2. git merge <branch_name>
+
+
+
